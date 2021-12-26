@@ -42,7 +42,7 @@ public class MainViewController implements Initializable{
 	
 	@FXML
 	public void onMenuItemNew() {
-		System.out.println("onMenuItemNew");
+		loadView("/gui/NewRegistration.fxml");
 	}
 	
 	@FXML
